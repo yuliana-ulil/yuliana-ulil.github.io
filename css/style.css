@@ -1,1 +1,196 @@
+/*selector*/
+/*start font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/*end font*/
+
+/*start body*/
+.body {
+    /*start body*/
+    color: darkorange;
+    font-family: roboto
+}
+    .judulutama{
+    color: black;
+    font-size: 30px;
+    line-height: 1.5em;
+    margin; 0;
+    padding; 0;
+    text-align: center ;
+}
+    .judulkedua{
+    color: black;
+    font-size: 25px
+}
+/*end body*/
+
+/*start debug*/
+.clr{
+    background-color: blue
+}
+.menu{
+    background-color: none;
+}
+
+*end debug*/
+
+/*start container*/
+.container {
+    margin: 20px auto;
+    overflow: auto;
+    width: 90%
+}
+.container-full {
+    margin: 20px auto;
+    overflow: auto;
+    width: 100%
+}
+/*end container*/
+
+/*start logo*/
+.logo {
+    text-align: center;
+}
+/*end logo*/
+
+/*start menu-primer*/
+.menu-primer ul {
+    background-color: rgb(20, 24, 19);
+    border-radius: 4px;
+    box-shadow: aqua
+}
+
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0-4px;
+}
+.menu-primer a {
+    color: blueviolet;
+    font-size: 13px;
+    padding: 10px 20px;
+    text-transform : uppercase;
+}
+.menu-primer a:hover{
+    background-color: beige;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-primer .active{
+    background-color: #d1d5da;
+    color: black;
+    text-decoration: none;
+}
+
+/*end menu-prime*/
+
+/*start heading*/
+h1, h2, h3, h4 {
+    font-weight: 400;
+    letter-spacing: 1px
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 14px;
+}
+/*end heading*/
+
+/*start jumbroton*/
+.jumbroton{
+    background-color: rgb(243, 236, 233);
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbroton h1{
+    font-size: 32px;
+    padding: 0 20px;
+}
+/*end jumbroton*/
+
+
+/*start box*/
+/*star main*/
+.menu1 {
+    float: left;
+    width: 33%;
+}
+.h2 {
+    text-align: center;
+}
+/*end main*/
+
+/*star menu2*/
+.menu2 {
+    float: right;
+    width: 33%;
+}
+/*end menu2*/
+
+/*start menu3*/
+.menu3 {
+    float: left;
+    width: 34%;
+}
+/*end menu3*/
+.box-heading-img1 {
+    background-color: blanchedalmond;
+    border : 1px solid #050607;
+    border-radius: 3px 3px 0 0;
+}
+.box-heading-img2 {
+    background-color: blanchedalmond;
+    border : 1px solid #050607;
+    border-radius: 3px 3px 0 0;
+}
+.box-heading-img3 {
+    background-color: blanchedalmond;
+    border : 1px solid #050607;
+    border-radius: 3px 3px 0 0;
+}
+/*start layanan*/
+.layanan1 {
+    float: left;
+    width: 33%;
+}
+.layanan2 {
+    float: right;
+    width: 34%;
+}
+.layanan3 {
+    float: left;
+    width: 34%;
+}
+/*end layanan*/
+
+/*start menu sekunder*/
+.ms1 {
+    float: left;
+    width: 50%;
+}
+.ms2 {
+    float: right;
+    width: 50%;
+}
+
+.box-heading-ms1{
+    background-color: blanchedalmond;
+    border : 1px solid #050607;
+    border-radius: 3px 3px 0 0;
+}
+.box-heading-ms2{
+    background-color: blanchedalmond;
+    border : 1px solid #050607;
+    border-radius: 3px 3px 0 0;
+}
+/*end menu sekunder*/
+/*end box*/
 
