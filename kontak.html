@@ -65,17 +65,24 @@
      <p>anda bisa pesan dan konfirmasi pembayaran melalui</p>
 
      <form action="">
-         <label>Nama Lengkap</label>
+         <label for="nama">Nama Lengkap</label>
          <br>
          <input type="text" placeholder="Nama Lengkap" size="50">
          <br> <br>
-         <label>Jenis Pesanan</label>
+         <label for="email">Email</label>
          <br>
-         <input type="text" placeholder="Jenis pesanan" size="50">
+         <input type="text" placeholder="example@example.com" size="50">
          <br> <br>
-         <label>Kota</label>
+         <label for="kota">Kota</label>
          <br>
          <input type="text" placeholder="kota" size="50">
+         <br> <br>
+         <label for="pesan">Pesan</label>
+         <br>
+         <textarea cols="50" rows="10" placeholder="Tulis Pesan di sini"></textarea>
+         <br>
+
+         <input type="submit" name="kirim" id="kirim" size="50" value="Kirim">
 
         </form>
      <!--end form-->
