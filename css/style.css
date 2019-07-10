@@ -9,12 +9,12 @@
     color: darkorange;
     font-family: roboto
 }
-    .judulutama{
+.judulutama{
     color: black;
     font-size: 30px;
-    line-height: 1.5em;
-    margin; 0;
-    padding; 0;
+    line-height: 2.5em;
+    margin: 0;
+    padding: 0;
     text-align: center ;
 }
     .judulkedua{
@@ -25,7 +25,7 @@
 
 /*start debug*/
 .clr{
-    background-color: blue
+    background-color: blanchedalmond;
 }
 .menu{
     background-color: none;
@@ -56,18 +56,26 @@
 .menu-primer ul {
     background-color: rgb(20, 24, 19);
     border-radius: 4px;
-    box-shadow: aqua
+    box-shadow: 
+    0 3px 5px -1px rgba(0,0,0,.2), 
+    0 6px 10px 0 rgba(0,0,0,.14), 
+    0 1px 18px 0 rgba(0,0,0,.12);
 }
 
 .menu-primer li {
     border-right: 1px solid #d1d5da;
     display: inline-block;
-    margin: 0-4px;
+    margin: 0 -4px;
+    padding: 10px 0;
 }
+
+
 .menu-primer a {
     color: blueviolet;
     font-size: 13px;
-    padding: 10px 20px;
+    letter-spacing: 1px;
+    padding: 11px 25px;
+    text-decoration: none;
     text-transform : uppercase;
 }
 .menu-primer a:hover{
@@ -84,6 +92,45 @@
 
 /*end menu-prime*/
 
+/* Start Form */
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #888888;
+    font-weight: 300;
+}
+
+input[type="submit"],
+.button,
+button {
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+    border: 1px solid rgba(27,31,35,0.2);
+    border-radius: 4px;
+    color: #000000 !important;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+input[type="submit"]:hover
+.button:hover,
+button:hover {
+    background-color: #e6ebf1;
+    background-image: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%);
+    border-color: rgba(27,31,35,0.35);
+    text-decoration: none;
+}
+/* End Form */
 /*start heading*/
 h1, h2, h3, h4 {
     font-weight: 400;
@@ -103,6 +150,11 @@ h4{
 }
 /*end heading*/
 
+.underline{
+    
+    
+}
+
 /*start jumbroton*/
 .jumbroton{
     background-color: rgb(243, 236, 233);
@@ -119,13 +171,14 @@ h4{
 
 /*start box*/
 /*star main*/
+.h2 {
+    text-align: center;
+}
 .menu1 {
     float: left;
     width: 33%;
 }
-.h2 {
-    text-align: center;
-}
+
 /*end main*/
 
 /*star menu2*/
@@ -141,6 +194,8 @@ h4{
     width: 34%;
 }
 /*end menu3*/
+
+/*start box*/
 .box-heading-img1 {
     background-color: blanchedalmond;
     border : 1px solid #050607;
@@ -156,11 +211,24 @@ h4{
     border : 1px solid #050607;
     border-radius: 3px 3px 0 0;
 }
+.box-isi {
+    background-color: #ffffff;
+    border: 1px solid #eaecef;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/*end box*/
+
 /*start layanan*/
+.h2 {
+    text-align: center;
+}
 .layanan1 {
     float: left;
     width: 33%;
 }
+
 .layanan2 {
     float: right;
     width: 34%;
@@ -171,26 +239,57 @@ h4{
 }
 /*end layanan*/
 
+/* Start Contact */
+.contact-form div {
+    margin: 20px auto;
+}
+/* End Contact */
+
 /*start menu sekunder*/
-.ms1 {
+.menu-sekunder {
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
     float: left;
-    width: 50%;
 }
-.ms2 {
-    float: right;
-    width: 50%;
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+    width: 30%;
 }
 
-.box-heading-ms1{
-    background-color: blanchedalmond;
-    border : 1px solid #050607;
-    border-radius: 3px 3px 0 0;
+.menu-sekunder li img {
+    vertical-align: middle;
 }
-.box-heading-ms2{
-    background-color: blanchedalmond;
-    border : 1px solid #050607;
-    border-radius: 3px 3px 0 0;
-}
-/*end menu sekunder*/
-/*end box*/
+/* End Menu Sekunder */
 
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright */
